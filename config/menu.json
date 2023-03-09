@@ -1,0 +1,64 @@
+{
+  "main": [
+    {
+      "name": "Acceuil",
+      "url": "/"
+    },
+    {
+      "name": "Critères",
+      "url": "/blogs"
+    },
+    {
+      "name": "Tarification",
+      "url": "/pricing"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+    
+  ],
+  "footer": [
+    {
+      "name": "Entreprise",
+      "menu": [
+        {
+          "text": "Tarification",
+          "url": "/pricing"
+        }
+        
+      ]
+    },
+    {
+      "name": "Formations",
+      "menu": [
+        {
+          "text": "Caractéristiques",
+          "url": "#"
+        },
+        {
+          "text": "Platforme",
+          "url": "#"
+        },
+        {
+          "text": "Tarification",
+          "url": "/pricing"
+        }
+      ]
+    },
+    {
+      "name": "Support",
+      "menu": [
+        
+        {
+          "text": "politique de confidentialité",
+          "url": "#"
+        },
+        {
+          "text": "termes & conditions",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}

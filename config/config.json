@@ -1,0 +1,36 @@
+{
+  "site": {
+    "title": "Corpus LS",
+    "base_url": "/",
+    "favicon": "/images/corpus.png",
+    "logo": "/images/corpus.png",
+    "logo_width": "150",
+    "logo_height": "48",
+    "logo_text": "Bigspring Light"
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Commencez",
+    "link": "/contact"
+  },
+
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": " Apprenez La Langue Des Signes Française En E-Learning 24h/24 7j/7",
+    "copyright": "Designed and Developed By Diginov"
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "",
+    "meta_description": ""
+  }
+}
