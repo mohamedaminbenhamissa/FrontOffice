@@ -17,8 +17,8 @@
 
   "nav_button": {
     "enable": true,
-    "label": "Commencez",
-    "link": "/contact"
+    "label": "Commencer",
+    "link": "/inscription"
   },
 
   "params": {

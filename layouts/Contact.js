@@ -4,7 +4,22 @@ import { markdownify } from "@lib/utils/textConverter";
 const Contact = ({ data }) => {
   const { frontmatter } = data;
   const { title, info } = frontmatter;
-  const { contact_form_action } = config.params;
+  const { contact_form_action } =  "contactcorpusls@gmail.com";
+
+
+  const handleSubmit = (event) => {
+    
+    const formData = new FormData(event.target);
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const subject = formData.get("subject");
+    const message = formData.get("message");
+
+    sendEmail({ name, email, subject, message });
+
+    // clear the form
+    event.target.reset();
+  };
 
   return (
     <section className="section">
@@ -51,7 +66,7 @@ const Contact = ({ data }) => {
                   placeholder="Votre message"
                 />
               </div>
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn btn-primary"onClick={(event) => handleSubmit()}>
                 Envoyer
               </button>
             </form>

@@ -12,6 +12,10 @@
 .form-inputs * {
   @apply mb-5 leading-10;
 }
+.text-field {
+  @apply   rounded-xl  py-[17px] leading-[18px] ;
+ 
+}
 
 // social icon style
 .social-icons {
